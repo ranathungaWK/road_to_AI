@@ -1,0 +1,21 @@
+Column	Type	Description
+PersonID	Object	Unique identifier for each individual
+Age_Years	Float	Age of the person in years
+Weight_Kg	Float	Weight in kilograms
+High_Calorie_Food	Object	Consumption of high-calorie foods (Yes/No)
+Vegetable_Intake	Float	Frequency of vegetable consumption (numeric scale)
+Meal_Frequency	Float	Number of meals consumed per day
+Water_Intake	Float	Daily water intake (scaled numeric)
+Screen_Time_Hours	Float	Average daily screen time in hours
+Family_Risk	Float	Indicator of family-related obesity risk (numeric scale)
+Activity_Level_Score	Float	Score representing overall activity level
+Gender	Object	Gender of the individual (Male/Female)
+Family_History	Object	Whether there is a family history of obesity (Yes/No)
+Snack_Frequency	Object	Frequency of snack consumption (e.g., Occasionally, Frequently)
+Smoking_Habit	Object	Smoking behavior (Yes/No)
+Alcohol_Consumption	Object	Alcohol intake frequency (e.g., Sometimes, No)
+Commute_Mode	Object	Primary mode of transportation (e.g., Public_Transportation, Automobile)
+Weight_Category	Object	Target variable: One of {Insufficient_Weight, Normal_Weight, Overweight_Level_I, Overweight_Level_II, Obesity_Type_I, Obesity_Type_II, Obesity_Type_III}
+Height_cm	Float	Height in centimeters
+Physical_Activity_Level	Object	Qualitative indicator of physical activity (None, Low, Medium); may contain missing values
+Leisure Time Activity	Object	Primary leisure activity (e.g., Reading, Gaming, Sports, Music)  
